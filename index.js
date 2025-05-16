@@ -1,0 +1,33 @@
+setTimeout(()=>{
+       document.getElementById("a").innerHTML=10
+   setTimeout(()=>{
+        document.getElementById("a").innerHTML=9
+      setTimeout(()=>{
+            document.getElementById("a").innerHTML=8
+        setTimeout(()=>{
+              document.getElementById("a").innerHTML=7
+          setTimeout(()=>{
+                   document.getElementById("a").innerHTML=6
+           setTimeout(()=>{
+                     document.getElementById("a").innerHTML=5
+            setTimeout(()=>{
+                       document.getElementById("a").innerHTML=4
+              setTimeout(()=>{
+                       document.getElementById("a").innerHTML=3
+               setTimeout(()=>{
+                         document.getElementById("a").innerHTML=2
+                 setTimeout(()=>{
+                             document.getElementById("a").innerHTML=1
+                   setTimeout(()=>{
+                               document.getElementById("a").innerHTML="HAPPY WINTER"  
+                                  },1000)
+                               },1000)
+                           },1000)
+                     },1000)
+                  },1000)
+                },1000)
+            },1000)
+         },1000)
+     },1000)
+ },1000)
+},1000)
