@@ -1,0 +1,13 @@
+import image from "../assets/image.png"
+import { Link } from "react-router-dom"
+import Login from "./Login"
+ const PageNotFound = () => {
+  return (
+    <div>
+        <h1>This page is not found</h1>
+        <img className="w-100" src={image} alt="404"/>
+        <Link to="/Login">Login</Link>
+    </div>
+  )
+}
+export default PageNotFound
